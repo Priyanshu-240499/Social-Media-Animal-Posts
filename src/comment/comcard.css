@@ -1,0 +1,8 @@
+.comcard-text {
+  width: 40%;
+}
+@media screen and (max-width: 480px) {
+  .comcard-text {
+    width: 80%;
+  }
+}

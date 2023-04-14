@@ -1,0 +1,23 @@
+.prdiv {
+  display: flex;
+  box-shadow: 0px 0px 3px grey;
+  width: 70%;
+  padding: 2%;
+}
+
+.profile-photo {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+}
+.profile-photo img {
+  border-radius: 50%;
+}
+.profile-detail {
+  padding-left: 2%;
+}
+@media screen and (max-width: 480px) {
+  .prdiv {
+    width: 100%;
+  }
+}

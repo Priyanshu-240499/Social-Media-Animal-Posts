@@ -1,0 +1,70 @@
+.card {
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 5px;
+  width: 40%;
+  margin: 1% 0%;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+  text-decoration: none;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+.avatar > img {
+  border-radius: 50%;
+}
+.avatar-name p {
+  margin: 0;
+}
+.avatar-name-2 {
+  padding-top: 3%;
+  color: gray;
+}
+.img {
+  width: 100%;
+}
+.img > img {
+  width: 100%;
+}
+.name {
+  padding-left: 4%;
+  color: gray;
+}
+.tags {
+  margin: 2% 0%;
+  padding-left: 4%;
+}
+.tags-btn {
+  margin: 0% 1%;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 3px 6px;
+}
+.likes {
+  padding: 3% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes-1 {
+  display: flex;
+  align-items: center;
+}
+.likes-2 {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .card {
+    width: 80%;
+  }
+}
